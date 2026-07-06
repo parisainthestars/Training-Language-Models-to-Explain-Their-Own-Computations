@@ -1,0 +1,43 @@
+dict_keys(['input_ids', 'attention_mask', 'labels'])
+dict_keys(['input_ids', 'attention_mask', 'labels'])
+Dataset sample keys: dict_keys(['input_ids', 'attention_mask', 'labels', 'v', 'v_idx'])
+You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You shouldn't move a model that is dispatched using accelerate hooks.
+You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Epoch 1 | Step 50 | Loss 1.8448
+Epoch 1 | Step 100 | Loss 1.5032
+Epoch 1 | Step 150 | Loss 1.4355
+Epoch 1 | Step 200 | Loss 1.5445
+Epoch 1 | Step 250 | Loss 1.4472
+Epoch 1 | Step 300 | Loss 1.3143
+Epoch 1 | Step 350 | Loss 1.4459
+Epoch 1 | Step 400 | Loss 1.3201
+Epoch 1 | Step 450 | Loss 1.3724
+Epoch 1 | Step 500 | Loss 1.3352
+[Eval] Epoch 1 | Loss 1.2055
+Epoch 2 | Step 50 | Loss 0.6974
+Epoch 2 | Step 100 | Loss 0.6708
+Epoch 2 | Step 150 | Loss 0.7362
+Epoch 2 | Step 200 | Loss 0.7323
+Epoch 2 | Step 250 | Loss 0.7640
+Epoch 2 | Step 300 | Loss 0.6783
+Epoch 2 | Step 350 | Loss 0.7594
+Epoch 2 | Step 400 | Loss 0.7745
+Epoch 2 | Step 450 | Loss 0.6513
+Epoch 2 | Step 500 | Loss 0.7956
+[Eval] Epoch 2 | Loss 1.3688
+Epoch 3 | Step 50 | Loss 0.2747
+Epoch 3 | Step 100 | Loss 0.2845
+Epoch 3 | Step 150 | Loss 0.3090
+Epoch 3 | Step 200 | Loss 0.2995
+Epoch 1 | Step 50 | Loss 0.1602
+[Eval] Epoch 1 | Loss 0.9827
+Epoch 2 | Step 50 | Loss 0.0345
+[Eval] Epoch 2 | Loss 1.3472
+Epoch 3 | Step 50 | Loss 0.0112
+[Eval] Epoch 3 | Loss 1.2363
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ak-research-01/miniconda3/envs/sv2/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
