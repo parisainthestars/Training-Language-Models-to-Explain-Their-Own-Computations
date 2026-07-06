@@ -4,6 +4,7 @@ This report presents our reimplementation and partial reproduction of the experi
 
 ## Project Structure
 
+
 | Part | Folder | Main Idea |
 |---|---|---|
 | 1 | `1_feature_description` | Train explainer models to describe internal feature vectors from language models |
