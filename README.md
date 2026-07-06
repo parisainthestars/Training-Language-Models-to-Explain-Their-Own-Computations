@@ -10,6 +10,16 @@ The full reproducibility-study report is available here:
 
 ---
 
+## Method Overview
+
+<p align="center">
+  <img src="figures/li2025_method_overview.png" width="700"/>
+</p>
+
+**Figure 1.** Overview of the method proposed by Li et al. (2025) for training models to describe their own internal procedures.
+
+---
+
 ## Project Structure
 
 | Part | Folder | Main Idea |
@@ -31,19 +41,19 @@ The experiments compare explainers trained on different layer ranges and differe
   <img src="figures/explainer_scores_layer_groups.png" width="430"/>
 </p>
 
-**Figure 1.** Average explanation scores for explainers trained on different layer groups. The results show that explanation quality changes across layers, with some middle layers receiving higher scores.
+**Figure 2.** Average explanation scores for explainers trained on different layer groups. The results show that explanation quality changes across layers, with some middle layers receiving higher scores.
 
 <p align="center">
   <img src="figures/explainer_scores_sparsity.png" width="430"/>
 </p>
 
-**Figure 2.** Explainer score versus training-data portion. Using more examples generally improves the average explanation score, especially for several middle layers.
+**Figure 3.** Explainer score versus training-data portion. Using more examples generally improves the average explanation score, especially for several middle layers.
 
 <p align="center">
   <img src="figures/qwen_llama_explainer_comparison.png" width="430"/>
 </p>
 
-**Figure 3.** Comparison between Qwen and LLaMA explainers. In this run, the LLaMA explainer achieves higher average scores across most layers.
+**Figure 4.** Comparison between Qwen and LLaMA explainers. In this run, the LLaMA explainer achieves higher average scores across most layers.
 
 ---
 
