@@ -1,7 +1,7 @@
 # Interpreting Language Models
 
-This project studies how language models can explain and analyze their own internal computations.  
-It is divided into three parts: feature description, activation patching, and input ablation.
+This report presents our reimplementation and partial reproduction of the experiments in \textit{Training Language Models to Explain Their Own Computations}. Our goal is to examine whether the paper's main findings can be replicated under a smaller-scale experimental setting. In particular, we reproduce experiments on feature description, activation patching, and input ablation, while also evaluating the claim that language models are better able to explain their own computations than those of a different model family. In Section~\ref{sec:next}, we further discuss several potential directions for extending this work, motivated by our empirical observations and the limitations encountered during the reproduction study.
+
 
 ## Project Structure
 
